@@ -9,6 +9,10 @@ import Movies from './components/Movies'
 
 const Routes = (
     <Route path="/" component={App}>
+        <Route path="/Home" component={Home} />
+        <Route path="/Actors" component={Actors} />
+        <Route path="/Movies" component={Movies} />
+        <Route path="/Directors" component={Directors} />
         {/* routes go here */}
     </Route>
 )
